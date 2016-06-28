@@ -1,304 +1,148 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-
 <html lang="es-es" >
 <head>
 <title>Sitio administrativo | Sitio de administración de Django</title>
 <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
 <link rel="stylesheet" type="text/css" href="/static/admin/css/dashboard.css" />
 <!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/static/admin/css/ie.css" /><![endif]-->
-
 <script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
 <script type="text/javascript">window.__admin_utc_offset__ = "\u002D18000";</script>
-
 <meta name="robots" content="NONE,NOARCHIVE" />
 </head>
-
-
 <body class=" dashboard">
-
 <!-- Container -->
 <div id="container">
-
-    
     <!-- Header -->
     <div id="header">
         <div id="branding">
-        
 <h1 id="site-name"><a href="/admin/">Administración de Django</a></h1>
-
         </div>
-        
-        
         <div id="user-tools">
-            
                 Bienvenido/a,
                 <strong>admin</strong>.
-            
-            
-                
                     <a href="/">Ver el sitio</a> /
-                
-                
-                    
-                    
-                
-                
                 <a href="/admin/password_change/">Cambiar contraseña</a> /
-                
                 <a href="/admin/logout/">Terminar sesión</a>
-            
         </div>
-        
-        
-        
     </div>
     <!-- END Header -->
-    
-    
-
-    
-        
-    
-
     <!-- Content -->
     <div id="content" class="colMS">
-        
         <h1>Sitio administrativo</h1>
-        
 <div id="content-main">
-
-
-    
         <div class="app-auth module">
         <table>
         <caption>
             <a href="/admin/auth/" class="section" title="Modelos en la aplicación Autenticación y autorización">Autenticación y autorización</a>
         </caption>
-        
             <tr class="model-group">
-            
                 <th scope="row"><a href="/admin/auth/group/">Grupos</a></th>
-            
-
-            
                 <td><a href="/admin/auth/group/add/" class="addlink">Añadir</a></td>
-            
-
-            
                 <td><a href="/admin/auth/group/" class="changelink">Modificar</a></td>
-            
             </tr>
-        
             <tr class="model-user">
-            
                 <th scope="row"><a href="/admin/auth/user/">Usuarios</a></th>
-            
-
-            
                 <td><a href="/admin/auth/user/add/" class="addlink">Añadir</a></td>
-            
-
-            
                 <td><a href="/admin/auth/user/" class="changelink">Modificar</a></td>
-            
             </tr>
-        
         </table>
         </div>
-    
         <div class="app-contacto module">
         <table>
         <caption>
             <a href="/admin/contacto/" class="section" title="Modelos en la aplicación Contacto">Contacto</a>
         </caption>
-        
             <tr class="model-contacto">
-            
                 <th scope="row"><a href="/admin/contacto/contacto/">Contactos</a></th>
-            
-
-            
                 <td><a href="/admin/contacto/contacto/add/" class="addlink">Añadir</a></td>
-            
-
-            
                 <td><a href="/admin/contacto/contacto/" class="changelink">Modificar</a></td>
-            
             </tr>
-        
             <tr class="model-cuenta">
-            
                 <th scope="row"><a href="/admin/contacto/cuenta/">Cuentas</a></th>
-            
-
-            
                 <td><a href="/admin/contacto/cuenta/add/" class="addlink">Añadir</a></td>
-            
-
-            
                 <td><a href="/admin/contacto/cuenta/" class="changelink">Modificar</a></td>
-            
             </tr>
-        
             <tr class="model-tarea">
-            
                 <th scope="row"><a href="/admin/contacto/tarea/">Tareas</a></th>
-            
-
-            
                 <td><a href="/admin/contacto/tarea/add/" class="addlink">Añadir</a></td>
-            
-
-            
                 <td><a href="/admin/contacto/tarea/" class="changelink">Modificar</a></td>
-            
             </tr>
-        
         </table>
         </div>
-    
         <div class="app-proyecto module">
         <table>
         <caption>
             <a href="/admin/proyecto/" class="section" title="Modelos en la aplicación Proyecto">Proyecto</a>
         </caption>
-        
             <tr class="model-proyecto">
-            
                 <th scope="row"><a href="/admin/proyecto/proyecto/">Proyectos</a></th>
-            
-
-            
                 <td><a href="/admin/proyecto/proyecto/add/" class="addlink">Añadir</a></td>
-            
-
-            
                 <td><a href="/admin/proyecto/proyecto/" class="changelink">Modificar</a></td>
-            
             </tr>
-        
         </table>
         </div>
-    
         <div class="app-tarea module">
         <table>
         <caption>
             <a href="/admin/tarea/" class="section" title="Modelos en la aplicación Tarea">Tarea</a>
         </caption>
-        
             <tr class="model-tarea">
-            
                 <th scope="row"><a href="/admin/tarea/tarea/">Tareas</a></th>
-            
-
-            
                 <td><a href="/admin/tarea/tarea/add/" class="addlink">Añadir</a></td>
-            
-
-            
                 <td><a href="/admin/tarea/tarea/" class="changelink">Modificar</a></td>
-            
             </tr>
-        
         </table>
         </div>
-    
-
 </div>
-
-        
 <div id="content-related">
     <div class="module" id="recent-actions-module">
         <h2>Acciones recientes</h2>
         <h3>Mis acciones</h3>
-            
-            
-            
             <ul class="actionlist">
-            
             <li class="deletelink">
-                
                     Tarea nro1
-                
-                <br/>
-                
-                    <span class="mini quiet">Tarea</span>
-                
-            </li>
-            
-            <li class="addlink">
-                
-                    <a href="/admin/auth/group/1/">ScrumMaster</a>
-                
-                <br/>
-                
-                    <span class="mini quiet">Grupo</span>
-                
-            </li>
-            
-            <li class="addlink">
-                
-                    <a href="/admin/auth/user/5/">cserquen</a>
-                
-                <br/>
-                
-                    <span class="mini quiet">Usuario</span>
-                
-            </li>
-            
-            <li class="addlink">
-                
-                    <a href="/admin/auth/user/4/">pmartinez</a>
-                
-                <br/>
-                
-                    <span class="mini quiet">Usuario</span>
-                
-            </li>
-            
-            <li class="addlink">
-                
-                    <a href="/admin/auth/user/3/">jtavara</a>
-                
-                <br/>
-                
-                    <span class="mini quiet">Usuario</span>
-                
-            </li>
-            
-            <li class="addlink">
-                
-                    <a href="/admin/auth/user/2/">aprado</a>
-                
-                <br/>
-                
-                    <span class="mini quiet">Usuario</span>
-                
-            </li>
-            
-            <li class="changelink">
-                
-                    <a href="/admin/auth/user/1/">admin</a>
-                
-                <br/>
-                
-                    <span class="mini quiet">Usuario</span>
-                
-            </li>
-            
-            </ul>
-            
+                <br/>                
+                    <span class="mini quiet">Tarea</span>               
+            </li>            
+            <li class="addlink">                
+                    <a href="/admin/auth/group/1/">ScrumMaster</a>                
+                <br/>                
+                    <span class="mini quiet">Grupo</span>                
+            </li>            
+            <li class="addlink">                
+                    <a href="/admin/auth/user/5/">cserquen</a>                
+                <br/>                
+                    <span class="mini quiet">Usuario</span>                
+            </li>            
+            <li class="addlink">                
+                    <a href="/admin/auth/user/4/">pmartinez</a>                
+                <br/>                
+                    <span class="mini quiet">Usuario</span>                
+            </li>            
+            <li class="addlink">                
+                    <a href="/admin/auth/user/3/">jtavara</a>                
+                <br/>                
+                    <span class="mini quiet">Usuario</span>                
+            </li>            
+            <li class="addlink">                
+                    <a href="/admin/auth/user/2/">aprado</a>                
+                <br/>                
+                    <span class="mini quiet">Usuario</span>                
+            </li>            
+            <li class="changelink">                
+                    <a href="/admin/auth/user/1/">admin</a>                
+                <br/>                
+                    <span class="mini quiet">Usuario</span>               
+            </li>            
+            </ul>           
     </div>
 </div>
-
         <br class="clear" />
     </div>
     <!-- END Content -->
-
     <div id="footer"></div>
 </div>
 <!-- END Container -->
-
 </body>
 </html>

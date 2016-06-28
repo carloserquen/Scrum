@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+
+<html lang="es-es" >
+<head>
+<title>Escoja proyecto a modificar | Sitio de administración de Django</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+
+  
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/changelists.css" />
+  
+  
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+  
+  
+  
+
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/static/admin/css/ie.css" /><![endif]-->
+
+<script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+<script type="text/javascript">window.__admin_utc_offset__ = "\u002D18000";</script>
+
+
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+
+<script type="text/javascript">
+(function($) {
+    $(document).ready(function($) {
+        $("tr input.action-select").actions();
+    });
+})(django.jQuery);
+</script>
+
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-proyecto model-proyecto change-list">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Administración de Django</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Bienvenido/a,
+                <strong>admin</strong>.
+            
+            
+                
+                    <a href="/">Ver el sitio</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="/admin/password_change/">Cambiar contraseña</a> /
+                
+                <a href="/admin/logout/">Terminar sesión</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="/admin/">Inicio</a>
+&rsaquo; <a href="/admin/proyecto/">Proyecto</a>
+&rsaquo; Proyectos
+</div>
+
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="flex">
+        
+        <h1>Escoja proyecto a modificar</h1>
+        
+  <div id="content-main">
+    
+      
+        <ul class="object-tools">
+          
+            <li>
+              
+              <a href="/admin/proyecto/proyecto/add/" class="addlink">
+                Añadir proyecto
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+    
+    <div class="module" id="changelist">
+      
+
+<div id="toolbar"><form id="changelist-search" action="" method="get">
+<div><!-- DIV needed for valid HTML -->
+<label for="searchbar"><img src="/static/admin/img/icon_searchbox.png" alt="Search" /></label>
+<input type="text" size="40" name="q" value="" id="searchbar" />
+<input type="submit" value="Buscar" />
+
+
+</div>
+</form></div>
+<script type="text/javascript">document.getElementById("searchbar").focus();</script>
+
+
+      
+
+
+      
+        
+      
+
+      <form id="changelist-form" action="" method="post" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='23AV7jiHGbpLqSAC9TdumOPtza16Qo6Q' />
+      
+
+      
+          
+<div class="actions">
+    <label>Acción: <select name="action">
+<option value="" selected="selected">---------</option>
+<option value="delete_selected">Eliminar proyectos seleccionado/s</option>
+</select></label><input class="select-across" name="select_across" type="hidden" value="0" />
+    <button type="submit" class="button" title="Ejecutar la acción seleccionada" name="index" value="0">Ir</button>
+    
+        <script type="text/javascript">var _actions_icnt="1";</script>
+        <span class="action-counter">seleccionados 0 de 1</span>
+        
+    
+</div>
+
+          
+
+
+<div class="results">
+<table id="result_list">
+<thead>
+<tr>
+
+<th scope="col"  class="action-checkbox-column">
+   
+   <div class="text"><span><input type="checkbox" id="action-toggle" /></span></div>
+   <div class="clear"></div>
+</th>
+<th scope="col"  class="sortable column-proyecto_nombre">
+   
+     
+   
+   <div class="text"><a href="?o=1">Proyecto nombre</a></div>
+   <div class="clear"></div>
+</th>
+<th scope="col"  class="sortable column-proyecto_data_inicio">
+   
+     
+   
+   <div class="text"><a href="?o=2">Proyecto data inicio</a></div>
+   <div class="clear"></div>
+</th>
+<th scope="col"  class="sortable column-concluido">
+   
+     
+   
+   <div class="text"><a href="?o=3">Concluido</a></div>
+   <div class="clear"></div>
+</th>
+</tr>
+</thead>
+<tbody>
+
+
+<tr class="row1"><td class="action-checkbox"><input class="action-select" name="_selected_action" type="checkbox" value="1" /></td><th class="field-proyecto_nombre"><a href="/admin/proyecto/proyecto/1/">Proyecto 1</a></th><td class="field-proyecto_data_inicio nowrap">18 de Junio de 2016</td><td class="field-concluido"><img src="/static/admin/img/icon-no.gif" alt="False" /></td></tr>
+
+</tbody>
+</table>
+</div>
+
+
+          
+      
+      
+
+<p class="paginator">
+
+1 proyecto
+
+
+</p>
+
+      </form>
+    </div>
+  </div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>

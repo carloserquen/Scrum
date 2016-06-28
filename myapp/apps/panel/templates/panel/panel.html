@@ -1,8 +1,6 @@
 {% load staticfiles %}
-{% block content %}-->
-	    
+{% block content %}	    
 	<!DOCTYPE html>
-
 	<html lang="es-es" >
 	<head>
 	<title>Proyecto administración | Sitio de administración de SCRUM</title>
@@ -15,104 +13,50 @@
     <link rel="stylesheet" href="{% static 'css/960.css' %}">
     <link rel="stylesheet" href="{% static 'css/reset.css' %}">
     <link rel="stylesheet" href="{% static 'css/css/text.css' %}">
-
 	<script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
 	<script type="text/javascript">window.__admin_utc_offset__ = "\u002D18000";</script>
-
 	<meta name="robots" content="NONE,NOARCHIVE" />
 	</head>
-
-
 	<body class=" dashboard app-proyecto">
-
 	<!-- Container -->
-	<div id="container">
-
-	    
+	<div id="container">	    
 	    <!-- Header -->
 	    <div id="header">
-	        <div id="branding">
-	        
+	        <div id="branding">	        
 	<h1 id="site-name"><a href="/admin/">Administración de SCRUM</a></h1>
-
-	        </div>
-	        
-	        
+	        </div>	        
 	        <div id="user-tools">
 	            
 	                Bienvenido/a,
 	                <strong>admin</strong>.
-	            
-	            
-	                
-	                    <a href="/">Ver el sitio</a> /
-	                
-	                
-	                    
-	                    
-	                
-	                
-	                <a href="/admin/password_change/">Cambiar contraseña</a> /
-	                
-	                <a href="/admin/logout/">Terminar sesión</a>
-	            
-	        </div>
-	        
-	        
-	        
+	                    <a href="/">Ver el sitio</a> / 
+	                <a href="/admin/password_change/">Cambiar contraseña</a> / 
+	                <a href="/admin/logout/">Terminar sesión</a>     
+	        </div>  
 	    </div>
-	    <!-- END Header -->
-	    
+	    <!-- END Header -->	    
 	<div class="breadcrumbs">
 	<a href="/admin/">Inicio</a>
 	&rsaquo;
-
 	Proyecto
-
 	</div>
-
-	    
-
-	    
-	        
-	    
-
 	    <!-- Content -->
-	    <div id="content" class="colMS">
-	        
-	        <h1>Proyecto administración</h1>
-	        
+	    <div id="content" class="colMS">	        
+	        <h1>Proyecto administración</h1>	        
 	<div id="content-main">
-
-
-	    
 	        <div class="app-proyecto module">
 	        <table>
 	        <caption>
 	            <a href="" class="section" title="Modelos en la aplicación Proyecto">Proyecto</a>
-	        </caption>
-	        
-	            <tr class="model-proyecto">
-	            
-	                <th scope="row"><a href="/admin/proyecto/proyecto/">Proyectos</a></th>
-	            
-
-	            
-	                <td><a href="/admin/proyecto/proyecto/add/" class="addlink">Añadir</a></td>
-	            
-
-	            
-	                <td><a href="/admin/proyecto/proyecto/" class="changelink">Modificar</a></td>
-	            
-	            </tr>
-	        
+	        </caption>        
+	            <tr class="model-proyecto">	            
+	                <th scope="row"><a href="/admin/proyecto/proyecto/">Proyectos</a></th>            
+	                <td><a href="/admin/proyecto/proyecto/add/" class="addlink">Añadir</a></td>     
+	                <td><a href="/admin/proyecto/proyecto/" class="changelink">Modificar</a></td>	            
+	            </tr>   
 	        </table>
 	        </div>
-	    
-
-	</div>
-
-	        
+	</div>  
 	        <br class="clear" />
 	    </div>
 	    <!-- END Content -->

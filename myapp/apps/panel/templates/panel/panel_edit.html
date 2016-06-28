@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+
+<html lang="es-es" >
+<head>
+<title>Modificar proyecto | Sitio de administración de Django</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css" />
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/static/admin/css/ie.css" /><![endif]-->
+
+<script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+<script type="text/javascript">window.__admin_utc_offset__ = "\u002D18000";</script>
+
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-proyecto model-proyecto change-form">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Administración de Django</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Bienvenido/a,
+                <strong>admin</strong>.
+            
+            
+                
+                    <a href="/">Ver el sitio</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="/admin/password_change/">Cambiar contraseña</a> /
+                
+                <a href="/admin/logout/">Terminar sesión</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="/admin/">Inicio</a>
+&rsaquo; <a href="/admin/proyecto/">Proyecto</a>
+&rsaquo; <a href="/admin/proyecto/proyecto/">Proyectos</a>
+&rsaquo; Proyecto 1
+</div>
+
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        <h1>Modificar proyecto</h1>
+        <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+    <li>
+        
+        <a href="/admin/proyecto/proyecto/1/history/" class="historylink">Histórico</a>
+    </li>
+    
+    
+  </ul>
+
+
+<form enctype="multipart/form-data" action="" method="post" id="proyecto_form" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='23AV7jiHGbpLqSAC9TdumOPtza16Qo6Q' />
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-proyecto_nombre">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_proyecto_nombre">Proyecto nombre:</label>
+                        
+                            <input class="vTextField" id="id_proyecto_nombre" maxlength="120" name="proyecto_nombre" type="text" value="Proyecto 1" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-concluido">
+            
+            
+                <div class="checkbox-row">
+                    
+                    
+                        <input id="id_concluido" name="concluido" type="checkbox" /><label class="vCheckboxLabel" for="id_concluido">Concluido</label>
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="Grabar" class="default" name="_save" />
+
+    
+    <p class="deletelink-box"><a href="/admin/proyecto/proyecto/1/delete/" class="deletelink">Eliminar</a></p>
+
+
+<input type="submit" value="Grabar y añadir otro" name="_addanother" />
+<input type="submit" value="Grabar y continuar editando" name="_continue" />
+</div>
+
+
+
+    <script type="text/javascript">
+        (function($) {
+            $(document).ready(function() {
+                $('.add-another').click(function(e) {
+                    e.preventDefault();
+                    showAddAnotherPopup(this);
+                });
+                $('.related-lookup').click(function(e) {
+                    e.preventDefault();
+                    showRelatedObjectLookupPopup(this);
+                });
+            
+            });
+        })(django.jQuery);
+    </script>
+
+
+
+
+<script type="text/javascript">
+(function($) {
+    var field;
+
+
+})(django.jQuery);
+</script>
+
+
+</div>
+</form></div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>
