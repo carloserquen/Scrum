@@ -12,4 +12,5 @@ urlpatterns = patterns('',
     url(r'^home/$', home),
     url(r'^tarea/', include('apps.tarea.urls')),
     url(r'^proyecto/', include('apps.proyecto.urls')),
+    url(r'^panel/', include('apps.panel.urls')),
 )
